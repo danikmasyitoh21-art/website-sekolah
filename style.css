@@ -112,4 +112,41 @@ footer {
   background-color: #003080;
   transform: scale(1.1);
 }
+body.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+body.dark-mode header, 
+body.dark-mode footer, 
+body.dark-mode .content {
+  background-color: #1e1e1e;
+}
+.search-container {
+  margin: 20px auto;
+  text-align: center;
+}
 
+#searchInput {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#searchBtn {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#searchBtn:hover {
+  background-color: #0056b3;
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
